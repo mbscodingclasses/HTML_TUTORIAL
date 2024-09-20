@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Seo tags in Html</title>
+</head>
+<body>
+    <!--  Code part 1 :  -->
+      <!-- Ab tak humne jitna bhi tag dekha wah body ke andar ka tag tha -->
+       <!-- Jaise hi jo humara head tag hain iske andar jo bhi hum likhate hain ya to wah search engine ke liye kaam aata hain ya fhir browser ke liye kaam aata hain -->
+        <!-- Basically kaam to user ke liye hi aayega , but isko utilize karta hain sabse jyada browser and uske baad search engine  -->
+         <!-- Jo user se interact karne wala hota hain usko hum body ke andar daalte hain  -->
+          <!-- Jo Broowser se interact karte huve user ko fyda hoga usko hum head ke andar daalte hain -->
+
+<!-- Code part 2 :  -->
+ <!-- Sabse pahle hum baat karte hain head tag ke andar jo seo tag hote hain unki -->
+  <!-- Seo : Searh Engine Optimization -->
+   <!-- Aap Jab Koi Website Banate Ho To Aap Chahate Ho Ki Google Jaise Website Ke Ooper Wah Aaye -->
+    <!-- Konsa Website Pahle Aayega , Konsa Website Badme Aayega Yah Sab Issi Tag Ke Ooper Depend Hota Hain -->
+
+    <!-- Code Part 3 :  -->
+     <!-- Header me kya kya dale ki aapki website : Google Me Oper Aa Jaye -->
+<!-- 5 aise tag jo aap likhate ho to aapki website seo ranking me ooper aa jati hain -->
+ <!-- 1 . title  -->
+  <!-- Google - cricket search - ESPNcricinfo: Today's Cricket Match | Cricket Update | Cricket . = title , Live Cricket Score | Scorecard | Live Commentary = title -->
+   <!-- Agar humari website rank hoti hain to uska title likhe aayega Home -->
+   <title>Home Page</title>
+
+   <!-- Code Part 4 : Description tag = Hum iss page ke bare me batate hain , Google ko bhi and Brouser ko bhi , And User ko bi = Ki kis cheej ke bare main hum isme likh rahe hain  -->
+    <!-- Google - Car - First Page = CarWale is one of the India's leading source of new car pricing and other cars related information. CarWale exists to simplify car buying in India and helps ... = description  -->
+     <!-- Aap isko padke hi link ke ooper click karte ho -->
+      <!-- Yah user ke liye bhi , and Browser Ke liye Bhi Important Hain -->
+
+      <!-- Code part 5 :  -->
+       <!-- Description tag ek meta tag hota hain -->
+        <!-- meta tag ek single tag hota hain Jisko hum close nahi karte -->
+         <!-- name and content attribute -->
+         <meta name="description" content="this is a page about new car">
+
+         <!-- Code part 6 : keywords -->
+          <!-- Pahle jamane yah keyword kafhi use hota tha , But aaj ke jamane iska koi jyada relevance rah nahi gaya , Kyooki google khudse pata lagata hain ki aapke webpage ke andar konse keyword imp hain -->
+           <!-- But still you can write = keywords -->
+<!-- name atrribute , content attribute = keywords daal diye -->
+          <meta name="keywords" content="new , car">
+
+          <!-- Code part 7 : canonical tag -->
+           <!-- link tag , rel ke andar canonical likha , href ke andar car.html likha = ek webpage ka address  -->
+            <!-- Ho sakta hain kabhi kabhi ki  hum ek hi content ka 2 webpage bana rahe ho -->
+
+            <!-- ek hi content ka 2 webpage bana sakte ho alag naam dekar  -->
+             <!-- Google ko agar pata chal gaya ki ek hi content ko aap 2 web pages ke andar rakh rahe ho to usko lagta hain ki aap usse bevkhhof banane ki koshish kar rahe ho to aapke dono page rank nahi karvayega -->
+
+             <!-- To isliye hum canonical tag use karte hain , Isse hum batate hain ki Dono webpages me se aap kisi ek ko rank kara do ya fhor car.html ko jyada mahtava do -->
+              <!-- Aap ek tarah se bata rahe hote hain ki car.html and first.html ka aim same hain , kisi tarah ki dokhadadi nahi hain -->
+               <!-- Canonical tag tab jyada use hota hain jab aap duplicate content use kar lete ho ya fhir identical content use kar lete ho alag alag url se -->
+              <link rel="canonical" href="car.html">
+
+              <!-- code part : 8 -->
+
+<!-- robots tag : Iss page ko padna hain ya nahi , search engine main dalne ke liye  -->
+ <!-- Agar aap mana karoge to google kabhi nahi dalega apne search wale web page ke ooper  -->
+
+
+ <!-- index ka matlab yah hain ki aap isko read karke apne database ke andar dalna hain ya nahi aap search engine ko batate ho -->
+  <!-- follow ka matlab iss page ke ooper jitne links lagaye hain kya usko follow karana hain  -->
+
+  <meta name="robots" content="index,follow">
+
+  <!-- code part 9 :  -->
+
+     <!-- Humare page ko to follow karo but humne kuch external links lagaye huve inko follow mat karo 
+      -->
+     <!-- index : apne search result pe nahi dikhayega -->
+     <!-- private pages ko mat read karo : noindex - apne search page ke ooper nahi dikhayega  -->
+      <meta name="robots" content="noindex , nofollow">
+
+      <!-- code part 10 : -->
+       <!-- 
+      1 . title 
+      2 . description 
+      3 . keywords 
+      4 . canonical 
+      5 . robots 
+       -->
+ </body>
+</html>

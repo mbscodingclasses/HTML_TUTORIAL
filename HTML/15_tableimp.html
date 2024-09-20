@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Table imp code</title>
+  </head>
+  <body>
+    <!-- thead , tbody , tfoot -->
+    <table border="1">
+      <!-- thead -->
+      <thead style="color: red">
+        <tr>
+          <th>Col 1</th>
+          <th>Col 2</th>
+          <th>Col 3</th>
+        </tr>
+      </thead>
+      <!-- tbody -->
+      <tbody style="color: blue">
+        <tr>
+          <td>data 1</td>
+          <td>data 2</td>
+          <td>data 3</td>
+        </tr>
+        <tr>
+            <!-- nested table - table ke andar table -->
+             <!-- nested table - td ke andar hi banata hain  -->
+          <td>data 4</td>
+          <td>
+          <table border="2">
+            <tr>
+                <td>Col 1</td>
+                <td>Col 2</td>
+            </tr>
+            <tr>
+                <td>Col 3</td>
+                <td>Col 4</td>
+            </tr>
+          </table>
+          </td>
+          <td>data 6</td>
+        </tr>
+        <tr>
+          <td>data 7</td>
+          <td>data 8</td>
+          <td>data 9</td>
+        </tr>
+      </tbody>
+      <!-- tfoot -->
+      <tfoot style="color:red">
+        <tr>
+          <td>Col 1</td>
+          <td>Col 2</td>
+          <td>Col 3</td>
+        </tr>
+      </tfoot>
+    </table>
+  </body>
+</html>

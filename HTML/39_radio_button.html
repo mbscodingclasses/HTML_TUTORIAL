@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Radio Button In Html</title>
+  </head>
+  <body>
+    <!-- code part 1 : radio button banate kaise hain -->
+    <form>
+      <!-- radio button wah button hota hain jo options deta hain , ki inme se aap kisi ek cheej ko select karlo -->
+      <!-- Radio button goal sa hota hain aur isme aap tick lagate ho -->
+
+      <input type="radio" />
+    </form>
+
+    <!-- code part 2 : Text -->
+    <form>
+      <!-- radio button wah button hota hain jo options deta hain , ki inme se aap kisi ek cheej ko select karlo -->
+      <!-- Radio button goal sa hota hain aur isme aap tick lagate ho -->
+
+      <input type="radio" />Male <input type="radio" />Female
+      <input type="radio" />Other
+    </form>
+
+    <!-- code part 3 : value attribute  -->
+    <!-- Jab hum code ko submit karenge , code ko database me save karenge , database se fetch karenge = hume kaise pata chalega , kis naam se save huva hain -->
+
+    <!-- Ya to value="male" , value="female" , value="other" aisa save hoga  -->
+
+    <form>
+      <!-- radio button wah button hota hain jo options deta hain , ki inme se aap kisi ek cheej ko select karlo -->
+      <!-- Radio button goal sa hota hain aur isme aap tick lagate ho -->
+
+      <input type="radio" value="male" />Male
+      <input type="radio" value="female" />Female
+      <input type="radio" value="other" />Other
+    </form>
+
+    <!-- code part 4 :  -->
+    <!-- Ya to value="male" , value="female" , value="other" aisa save hoga  -->
+    <form>
+      <!-- radio button wah button hota hain jo options deta hain , ki inme se aap kisi ek cheej ko select karlo -->
+      <!-- Radio button goal sa hota hain aur isme aap tick lagate ho -->
+
+      <input type="radio" value="1" />Male
+      <input type="radio" value="2" />Female
+      <input type="radio" value="3" />Other
+    </form>
+
+    <!-- code part 5 : aap male , female , other ke ooper multiple select kar paa rahe ho ? why -->
+    <!-- name hain wah different hain sabka , agar aapka name same ho jaye sabka to ek cheej ko hi select kar pavoge-->
+    <form>
+      <!-- radio button wah button hota hain jo options deta hain , ki inme se aap kisi ek cheej ko select karlo -->
+      <!-- Radio button goal sa hota hain aur isme aap tick lagate ho -->
+      <!-- name : different : multiple select -->
+      <input type="radio" name="male" value="male" />Male
+      <input type="radio" name="female" value="female" />Female
+      <input type="radio" name="other" value="other" />Other
+    </form>
+
+    <!-- code part 6 : name same - ek select  -->
+    <form>
+      <!-- radio button wah button hota hain jo options deta hain , ki inme se aap kisi ek cheej ko select karlo -->
+      <!-- Radio button goal sa hota hain aur isme aap tick lagate ho -->
+
+      <input type="radio" name="gender" value="male" />Male
+      <input type="radio" name="gender" value="female" />Female
+      <input type="radio" name="gender" value="other" />Other
+    </form>
+
+    <!-- code part 7 : name se hum group karne wale radio buttons ko -->
+     <!-- male , female aur other me se ek select and devloper and manager me se ek select -->
+    <form>
+        <!-- radio button wah button hota hain jo options deta hain , ki inme se aap kisi ek cheej ko select karlo -->
+         <!-- Radio button goal sa hota hain aur isme aap tick lagate ho -->
+   
+         <input type="radio" name="gender" value="male">Male
+        <input type="radio" name="gender" value="female">Female
+        <input type="radio" name="gender" value="other">Other
+<br><br>
+        <input type="radio" name="emptype" value="manager">Manager
+        <input type="radio" name="emptype" value="developer">Devloper
+    </form>
+
+    <!-- code part 8 : by default konsa select  -->
+     <!-- select me : selected by default and radio me checked by default and checkbox me bhi checked by default-->
+    <form>
+        <!-- radio button wah button hota hain jo options deta hain , ki inme se aap kisi ek cheej ko select karlo -->
+         <!-- Radio button goal sa hota hain aur isme aap tick lagate ho -->
+   
+         <input type="radio" name="gender" value="male">Male
+        <input type="radio" name="gender" value="female" checked>Female
+        <input type="radio" name="gender" value="other">Other
+<br><br>
+        <input type="radio" name="emptype" value="manager">Manager
+        <input type="radio" name="emptype" value="developer" checked>Devloper
+    </form>
+  </body>
+</html>

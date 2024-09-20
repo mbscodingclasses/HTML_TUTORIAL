@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Select option in html</title>
+  </head>
+  <body>
+    <!-- code part 1 : Dropdown form kaise banata hain -->
+    <!-- dropdown form kaise banta hain -->
+    <!-- dropdown form banane ke liye hume use kara padta : select tag  -->
+    <form>
+      <!-- select tag -->
+      <select></select>
+    </form>
+
+    <!-- code part 2 : Options dalne ke liye , kya kya choose karn ka option hoga , uske liye hume use karna padta hain : option tag ka  -->
+    <form>
+      <!-- select tag -->
+      <select>
+        <option>Audi</option>
+      </select>
+    </form>
+
+    <!-- code part 3 : database ke andar , kis cheej se save hoga data , yah agar janana hain , value attribute use , ya to db se fetch karte time aapko pato ho , ya save hi aisa karo ki samaj aaye  -->
+    <form>
+      <!-- select tag -->
+      <select>
+        <option value="audi">Audi</option>
+      </select>
+    </form>
+
+    <!-- code part 4 : db ke andar 1 , 2 , 3  -->
+    <form>
+      <!-- select tag -->
+      <select>
+        <option value="1">Audi</option>
+      </select>
+    </form>
+
+    <!-- code part 5 : option ko bada deta hu -->
+
+    <!-- multiple option -->
+
+    <form>
+      <!-- select tag -->
+      <select>
+        <option value="audi">Audi</option>
+        <option value="enova">Enova</option>
+        <option value="bmw">Bmw</option>
+      </select>
+    </form>
+
+    <!-- code part 6 : Pahle se hi selected : By default-->
+    <!-- Use : selected attribute  -->
+    <form>
+      <!-- select tag -->
+      <select>
+        <option value="audi">Audi</option>
+        <option value="enova" selected>Enova</option>
+        <option value="bmw">Bmw</option>
+      </select>
+    </form>
+
+    <!-- code part 7 : ek se jyada visible : size attribute : size="2" : 2 visible ek time pe , scroll karo tisra dekho -->
+    <!-- select tag : size="2" -->
+    <form>
+      <!-- select tag -->
+      <select size="2">
+        <option value="audi">Audi</option>
+        <option value="enova" selected>Enova</option>
+        <option value="bmw">Bmw</option>
+      </select>
+    </form>
+
+    <!-- code part 8 : multiple selected -->
+    <!-- select tag : multiple naam ka attribute  -->
+    <form>
+      <!-- select tag -->
+      <select size="2" multiple>
+        <option value="audi">Audi</option>
+        <option value="enova" selected>Enova</option>
+        <option value="bmw">Bmw</option>
+      </select>
+    </form>
+    
+      <!-- code part 9 : Kya hum options ko group kar sakte hain kya ? -->
+       <!-- directly : nahi ho raha - mix ho raha sabkuch  -->
+      <form>
+        <!-- select tag -->
+        <select >
+          <option value="audi">Audi</option>
+          <option value="enova" selected>Enova</option>
+          <option value="bmw">Bmw</option>
+          <option value="audi">Cricket</option>
+          <option value="enova" >Hockey</option>
+          <option value="bmw">Football</option>
+        </select>
+      </form>
+
+      <!-- code part 10 : optgroup attribute = options ko group karane ke liye  -->
+<!-- optgroup ke andar label dena padta hain , Car and Sports  -->
+
+      <form>
+        <!-- select tag -->
+        <select >
+            <!-- Group 1 :  -->
+            <optgroup label="Car">
+                <option value="audi">Audi</option>
+                <option value="enova" selected>Enova</option>
+                <option value="bmw">Bmw</option>
+            </optgroup>
+         <!-- Group 2 : -->
+          <optgroup label="Sports">
+            <option value="audi">Cricket</option>
+          <option value="enova" >Hockey</option>
+          <option value="bmw">Football</option>
+          </optgroup>
+        </select>
+      </form>
+  </body>
+</html>

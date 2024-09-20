@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>l f l</title>
+  </head>
+  <body>
+    <!-- code part 1 : input tag   -->
+    <form>
+      <input type="text" name="first_name" /><br />
+      <input type="submit" /><br />
+    </form>
+
+    <!-- code part 2 : div ke andar band -->
+    <form>
+      <div><input type="text" name="first_name" /><br /></div>
+      <div><input type="submit" /><br /></div>
+    </form>
+
+    <!-- code part 3 : First Name -->
+
+    <form>
+      <div>
+        First Name :
+        <input type="text" name="first_name" />
+    </div>
+      <div>
+        <input type="submit" />
+      </div>
+    </form>
+
+    <!-- code part 4 : label tag -->
+
+    <form>
+      <div>
+        <label> First Name : </label>
+        <input type="text" name="first_name" /></div>
+      <div>
+        <input type="submit" />
+      </div>
+
+      <!-- code part 5 : label ? : koi screenreader use kar raha hain to usko aasani se samaj me aa jayega , search engine ko bhi aasani hogi -->
+
+      <!-- user ko fyda : user aaya ui ke ooper , click kia text ko , focus me aa gaya mera box  -->
+
+      <!-- connect ? : input ko label ke saath -->
+
+      <form>
+
+             <div>
+                <label for="fname">     First Name : </label>
+                <input type="text" name="first_name" id="fname"></div>
+             <div>
+               <input type="submit" />
+             </div>
+    </form>
+
+    <!-- code part 6 : multiple input field - group -->
+
+    <form>
+        <!-- 1 -->
+             <div>
+                <label for="fname">     First Name : </label>
+                <input type="text" name="first_name" id="fname">
+                <label for="lname">   Last Name : </label>
+                <input type="text" name="last_name" id="lname">
+            </div>
+<!-- 2 -->
+            <div>
+                <label for="address">     Address : </label>
+                <input type="text" name="address" id="address">
+                <label for="mobile">   Mobile : </label>
+                <input type="text" name="mobile" id="mobile">
+            </div>
+<!-- 3 -->
+             <div>
+               <input type="submit" />
+             </div>
+             
+    </form>
+
+    <!-- code part 7 : fieldset ka use : 3 ko de dia , div ki jagah use fieldset  -->
+     <!-- 1  . group karna , 2 . border dena , 3 . enclosure - input field  -->
+       
+    <form>
+        <!-- 1 -->
+             <fieldset>
+                <label for="fname">     First Name : </label>   
+                <input type="text" name="first_name" id="fname">
+                <label for="lname">   Last Name : </label>
+                <input type="text" name="last_name" id="lname">
+             </fieldset>
+<!-- 2 -->
+            <fieldset>
+                <label for="address">     Address : </label>
+                <input type="text" name="address" id="address">
+                <label for="mobile">   Mobile : </label>
+                <input type="text" name="mobile" id="mobile">
+            </fieldset>
+<!-- 3 -->
+             <fieldset>
+               <input type="submit" />
+             </fieldset>
+             
+    </form>
+
+    <!-- code part 8  : legend - har ek fieldset ka ek legend hoga / label hoga  -->
+     <!-- legend : border ke ooper hi likh deta hain ki : wah field kiske bare me hain -->
+    <form>
+        <!-- 1 -->
+             <fieldset>
+                <legend>Basic Information</legend>
+                <label for="fname">     First Name : </label>   
+                <input type="text" name="first_name" id="fname">
+                <label for="lname">   Last Name : </label>
+                <input type="text" name="last_name" id="lname">
+             </fieldset>
+<!-- 2 -->
+            <fieldset>
+                <legend>Other Information</legend>
+                <label for="address">     Address : </label>
+                <input type="text" name="address" id="address">
+                <label for="mobile">   Mobile : </label>
+                <input type="text" name="mobile" id="mobile">
+            </fieldset>
+<!-- 3 -->
+             <fieldset>
+               <input type="submit" />
+             </fieldset>
+             
+    </form>
+  </body>
+</html>
